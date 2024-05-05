@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+header {
+    background-color: #807373;
+    text-align: center;
+}
+.container {
+    position: relative;
+    margin-top: 25vh;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .box {
+    position: relative;
+    
+    height: 160px;
+    width: 160px;
+    border-radius: 12px;
+    border: 2px solid #333;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.box {
+    position: relative;
+    height: 160px;
+    width: 160px;
+    border-radius: 12px;
+    border: 2px solid #333;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.move{
+    position: absolute;
+    bottom: 150px;
+}
+img {
+    padding-left: 15px;
+    height: 130px;
+    width: 130px;
+}
+
+.box .item {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+.banana {
+    background-image:url("assets/items/banana.jpg") ;
+}
+
+.plasticCup {
+    background-image:url("assets/items/plastic-cup.jpg") ;
+}
+
+.joghurt {
+    background-image:url("assets/items/joghurt.jpg") ;
+}
+
+.diaper {
+    background-image:url("assets/items/diaper.jpg") ;
+}
+
+.cornflakes {
+    background-image:url("assets/items/cornflakes.jpg") ;
+}
+
+.chips {
+    background-image:url("assets/items/chips.jpg") ;
+}
+
+.pizza {
+    background-image: url("assets/items/pizza.png");
+}
+
+.zeitung {
+    background-image: url("assets/items/zeitung.png");
+}
+
+.apfel {
+    background-image: url("assets/items/apfel.jpg");
+}
+
+.tasse {
+    background-image: url("assets/items/tasse.jpg");
+}
+
+.milch {
+    background-image: url("assets/items/milch.jpg");
+}
+
+.blume {
+    background-image: url("assets/items/blume.jpg");
+}
+
+.brief {
+    background-image: url("assets/items/brief.jpg");
+}
+
+.paste {
+    background-image: url("assets/items/paste.jpg");
+}
+
+.gubka {
+    background-image: url("assets/items/gubka.png");
+}
+
+.karrot {
+    background-image: url("assets/items/karrot.jpeg");
+}
+
+.tuete {
+    background-image: url("assets/items/tuete.jpg");
+}
+
+
+.schwarz {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-image:url("assets/trashcan_black.jpg") ;
+}
+
+.blau {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-image:url("assets/trashcan_blue.jpg") ;
+}
+
+.gelb {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-image:url("assets/trashcan_yellow.jpg") ;
+}
+
+.braun {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-image:url("assets/trashcan_brown.jpg") ;
+}
+
+.box.hovered{
+    border: 2px dashed #333;
+}
+
+.evaluation {
+    position: absolute;
+    top: 20px;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.true {
+    color: green;
+    display: none;
+}
+
+.false {
+    color: red;
+    display: none;
+}
+
+.guessCountContainer {
+    position: absolute;
+    top: 20px;
+    font-size: 80px;
+    font-weight: bold;
+}
+
